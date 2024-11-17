@@ -56,3 +56,5 @@ let searchFormElement = document.querySelector("#search-form");
 searchFormElement.addEventListener("submit", handleSearchSubmit);
 
 searchCity("Johannesburg");
+displayForecast();
+getForecast(response.data.city);
